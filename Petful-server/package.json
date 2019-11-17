@@ -8,7 +8,9 @@
   "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "predeploy": "npm audit",
+     "deploy": "git push heroku master"
   },
   "engines": {
        "node": "12.8.0"
