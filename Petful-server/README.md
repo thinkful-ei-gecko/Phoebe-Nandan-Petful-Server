@@ -1,26 +1,29 @@
-# Express Boilerplate!
+# Petful-server
 
-This is a boilerplate project used for starting new projects!
+See this app live at: <br/>
+client Repo https://github.com/thinkful-ei-gecko/Phoebe-Nandana-Petful-Client<br/>
+API Repo https://github.com/thinkful-ei-gecko/Phoebe-Nandana-Petful-Server<br/>
 
-## How do set up?
+## App 
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+Petful is a site which allows people to adopt a cat or a dog.
+The adoption process works strictly on 'First-In, First-Out'basis.
+People can adopt a cat or a dog which is first in queue.People are also put in queue sothey can adopt when its their turn.
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+## API EndPoints
 
-## Scripts
+POST/api/adopters/post -Enter your name to the Queue
 
-Start the application `npm start`
+GET/api/adopters - Get all the adopters in line.
 
-Start nodemon for the application `npm run dev`
+GET/api/dogs - Get all the dogs in the queue.
 
-Run the tests in watch mode `npm test`
+GET/api/cats - Get all the cats in the queue.
 
-## Deploying
+DELETE/api/dogs - put the adopted dog at the end of the queue.
 
-When your new project is ready for deployment, add a new heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+DELETE/api/cats - put the adopted dog at the end of the queue.
+
+### Technologies Used
+
+#### Back-End * Node.js * Express.js 

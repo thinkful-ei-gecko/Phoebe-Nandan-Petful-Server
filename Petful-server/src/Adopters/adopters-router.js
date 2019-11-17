@@ -19,10 +19,10 @@ adoptersRouter
 adoptersRouter
   .route('/post')
   .post((req,res) => {
-    console.log(req.body);
+    
     const{name}= req.body;
     const newName = {name};
-    console.log('+++',newName)
+    
     const newList = AdoptersService.addName(newName);
     res.json(newList);
   });

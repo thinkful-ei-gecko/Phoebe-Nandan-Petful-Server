@@ -29,7 +29,7 @@ const AdoptersService = {
   },
 
   addName(name){
-    console.log('=====',name)
+    
     adopterData.push(name);
     
     adopters.enqueue(name)
