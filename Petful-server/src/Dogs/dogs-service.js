@@ -36,8 +36,8 @@ let dogstore = [
   {
     imageURL:'https://images.dog.ceo/breeds/beagle/n02088364_11147.jpg', 
     imageDescription: 'Beagle dog with toy ball looks up at camera.',
-    name: 'Bailey',
-    sex: 'Female',
+    name: 'Snoopy',
+    sex: 'Male',
     age: 1,
     breed: 'Beagle',
     story: 'Rescued by animal control.',
@@ -64,13 +64,13 @@ let dogstore = [
     adopted:false
   },
   {
-    imageURL:'https://images.dog.ceo/breeds/labrador/n02099712_6586.jpg', 
+    imageURL:'https://images.dog.ceo/breeds/mix/ShadowNBJ.jpg', 
     imageDescription: 'Labrador mix happily sits with ruffled collar',
     name: 'Bailey',
-    sex: 'Male',
+    sex: 'Female',
     age: 6,
     breed: 'Labrador mix',
-    story: 'Given up by owner.',
+    story: 'Owner moved to a smaller apartment.',
     adopted:false
   },
   {
