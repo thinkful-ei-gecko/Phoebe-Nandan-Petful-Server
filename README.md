@@ -1,6 +1,6 @@
 # Petful-server
 
-[Live App](https://petful.shiningjustice.now.sh)
+[Live App](https://petful.shiningjustice.now.sh)<br/>
 client Repo https://github.com/thinkful-ei-gecko/Phoebe-Nandana-Petful-Client<br/>
 API Repo https://github.com/thinkful-ei-gecko/Phoebe-Nandana-Petful-Server<br/>
 
